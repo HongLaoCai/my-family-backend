@@ -1,6 +1,6 @@
 import fastify from 'fastify';
 import { setupApis, initDatabase } from './apis/setup';
-import { familyMemberApis } from './apis/addFamilyMembes';
+import { familyMemberApis } from './apis/familyMemberApis';
 import cors from '@fastify/cors'; // 👈 thêm dòng này
 
 async function startServer() {
